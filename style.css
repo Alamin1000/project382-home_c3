@@ -425,6 +425,7 @@ p:last-child {
   box-shadow: 0 18px 28px rgba(0, 0, 0, 0.16);
   background: #fff;
   display: flex;
+  align-items: center;
 }
 .jo-vc-card .image {
   height: 167px;

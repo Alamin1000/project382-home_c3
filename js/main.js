@@ -31,9 +31,15 @@
       '<i class="fal fa-arrow-right"></i>',
     ],
     responsive: {
-      0: {},
-      600: {},
-      1000: {},
+      0: {
+        items: 3,
+      },
+      767: {
+        items: 3,
+      },
+      1000: {
+        items: 4,
+      },
     },
   });
 
