@@ -392,7 +392,7 @@ p:last-child {
   background: #fff;
   transition: 0.3s;
 }
-.active .jo__stp__single__title .dec {
+.jo__stp__single__title:not(.collapsed) .dec {
   border-width: 9px;
 }
 .jo__stp__single__title .text {
@@ -400,8 +400,7 @@ p:last-child {
   font-weight: 900;
 }
 .jo__stp__single__body {
-  height: 0;
-  overflow: hidden;
+  
 }
 .active .jo__stp__single__body {
   height: initial;
